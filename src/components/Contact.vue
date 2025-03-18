@@ -17,7 +17,7 @@
                 </div>
                 <div class="text">
                     <h3>Message</h3>
-                    <a href="{{linkedin}}" style="color: white">{{ linkedin }}</a>
+                    <a :href="linkedin" style="color: white">{{ linkedin }}</a>
                 </div>
             </div>
             <div class="contact-item" v-if="github">
@@ -26,7 +26,7 @@
                 </div>
                 <div class="text">
                     <h3>Github</h3>
-                    <a href="{{github}}" style="color: white">{{ github }}</a>
+                    <a :href="github" style="color: white">{{ github }}</a>
                 </div>
             </div>
         </div>
