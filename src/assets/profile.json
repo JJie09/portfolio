@@ -1,0 +1,29 @@
+{
+    "name": "Goh Jin Jie",
+    "email": "jjie0921@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/jin-jie-goh-351749142",
+    "github": "https://github.com/JJie09/",
+    "skills": [
+        {
+            "name": "Frontend & Mobile",
+            "description": "Vue.js | React | Javascript | TypeScript | HTML | CSS | WPF | Flutter"
+        },
+        {
+            "name": "Backend & Database",
+            "description": "Node.js | PHP | Laravel | Golang | C# | Bash | Redis | PostgreSQL | MySQL"
+        },
+        {
+            "name": "DevOps & Project Management",
+            "description": "Git | GitHub | Gitlab | AWS | Nginx | Docker | Nutanix | Agile Scrum"
+        },
+        {
+            "name": "Tools",
+            "description": "Agile & Scrum, Jira, Postman, Trae, Cursor"
+        }
+    ],
+    "abouts": [
+        "I am a Full Stack Web Developer with a passion for leveraging cutting-edge technology to build *innovative and elegant solutions*.",
+        "Although I hold a degree in Electronics Engineering, my *strong passion* for programming led me to transition into the software development industry. To bridge the gap, I *proactively learn* coding knowledge and adopted best practices to align myself with industry demands.",
+        "With the support of AI-powered tools like *ChatGPT, AI-assisted IDEs* such as *Cursor and Trae*, I am *confident* in my ability to quickly adapt to new technology and new programming languages, ensuring continuous growth and excellence in my development journey."
+    ]
+}
