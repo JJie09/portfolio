@@ -31,17 +31,24 @@ import Home from './views/Home.vue'
 }
 
 .md-nav {
-  max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  gap: 2rem;
+  gap: 5rem;
   justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+  .md-nav {
+    justify-content: space-around;
+    gap: 0;
+  }
 }
 
 .md-nav-link {
   color: var(--md-on-primary);
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0rem;
   border-radius: 4px;
   transition: background-color 0.3s, box-shadow 0.3s;
   font-weight: 500;

@@ -47,11 +47,12 @@ defineProps<{
     display: flex;
     align-items: center;
     gap: 15px;
+    max-width: 70%;
 }
 
 .icon {
-    width: 50px;
-    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,6 +100,8 @@ defineProps<{
     margin: 1rem;
     opacity: 0.8;
     text-align: left;
+    overflow-wrap: break-word;
+    max-width: 100%;  
 }
 
 .text h3 {
